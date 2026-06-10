@@ -494,19 +494,6 @@ The framework generates:
 
 ---
 
-# Future Improvements
-
-- Automatic AI-based Scoring
-- Hallucination Detection System
-- React Dashboard
-- MongoDB Integration
-- Authentication
-- PDF Report Generation
-- Real-time Benchmarking
-- Leaderboard System
-
----
-
 # Conclusion
 
 EvalMatrix provides a structured approach for evaluating AI models using standardized benchmarks. The framework enables comparison of model quality, latency, reliability, and efficiency, helping developers select the most suitable model for their applications.
