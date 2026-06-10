@@ -1,7 +1,19 @@
 # EvalMatrix - AI Model Evaluation Framework
 
 ## Overview
-EvalMatrix is a comprehensive AI model evaluation framework designed to assess and benchmark various machine learning models across multiple dimensions including accuracy, performance, robustness, and efficiency metrics.
+EvalMatrix is a comprehensive AI model evaluation framework designed to assess and benchmark various machine learning models across multiple dimensions including accuracy, performance, robustness, and comprehensive reporting. This framework provides a unified platform for evaluating machine learning models with detailed metrics, visualizations, and performance comparisons.
+
+## What You've Created
+
+EvalMatrix is an end-to-end evaluation system that allows you to:
+- **Evaluate multiple ML models** using a standardized framework with consistent metrics
+- **Compare model performance** across classification, regression, and performance benchmarks
+- **Test robustness** of models under adversarial conditions and edge cases
+- **Generate professional reports** with visualizations, charts, and detailed comparisons
+- **Process multiple models in batch** for streamlined evaluation workflows
+- **Export results** in multiple formats for further analysis and sharing
+
+This framework is ideal for model selection, performance tracking, and establishing evaluation baselines for machine learning projects.
 
 ## Features
 - 📊 **Multi-metric Evaluation**: Evaluate models across accuracy, precision, recall, F1-score, and custom metrics
@@ -38,17 +50,13 @@ evaluator.generate_report(results)
 
 ## Project Structure
 
-```
-EvalMatrix-AI-Model-Evaluation/
-├── notebooks/              # Jupyter notebooks for analysis
-├── src/                    # Source code
-│   ├── evaluators/        # Model evaluation classes
-│   ├── metrics/           # Custom metric implementations
-│   └── utils/             # Utility functions
-├── data/                   # Sample datasets
-├── reports/                # Generated evaluation reports
-└── requirements.txt        # Project dependencies
-```
+The complete project structure is documented in detail in `notebooks/project_structure.ipynb`. This Jupyter notebook provides an interactive overview of all directories, components, and their organization.
+
+Key directories:
+- **src/** - Source code (evaluators, metrics, utilities)
+- **notebooks/** - Jupyter notebooks for analysis and examples
+- **data/** - Sample datasets and pre-trained models
+- **reports/** - Generated evaluation reports (JSON, CSV, PDF)
 
 ## Evaluation Metrics
 
@@ -92,12 +100,6 @@ results = evaluator.evaluate(model, test_data, custom_metrics=[custom_metric])
 models = {'model1': m1, 'model2': m2, 'model3': m3}
 batch_results = evaluator.batch_evaluate(models, test_data)
 ```
-
-## Contributing
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 For questions or support, please reach out to [your contact info]
