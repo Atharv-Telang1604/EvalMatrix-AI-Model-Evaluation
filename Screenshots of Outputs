@@ -1,1 +1,31 @@
+# Evaluation Results Screenshots
 
+## Image 1: Latency Summary
+This screenshot shows the latency comparison across three AI models:
+- **meta-llama/llama-3-8b-instruct**: p50 Latency: 974.61ms, p95 Latency: 1168.84ms
+- **mistralai/mistral-7b-instruct**: p50 Latency: 31.45ms, p95 Latency: 32.74ms
+- **google/gemma-3-12b-it**: p50 Latency: 3706.44ms, p95 Latency: 4730.90ms
+
+## Image 2: Evaluation Metrics Table
+Detailed evaluation results showing:
+- Prompt ID and Category (Factual QA)
+- Model Name and responses
+- Answer Correctness scores
+- Instruction Following scores
+- Quality metrics: Completeness, Factuality, Faithfulness/Groundedness
+
+Sample entries test the question "Who invented Java programming language?" across the three models.
+
+## Image 3: Comprehensive Evaluation Results
+Extended evaluation metrics including:
+- Instruction Following status
+- Completeness, Factuality, Faithfulness/Groundedness scores
+- Answer Relevance
+- Hallucination Score
+- Safety/Refusal Accuracy
+- Latency measurements (in milliseconds)
+- Input and Output Token counts
+- Successful Answer indicator (True/False)
+- Additional Notes
+
+This data demonstrates the performance comparison of different models on factual QA tasks with detailed quality and performance metrics.
